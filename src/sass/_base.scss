@@ -1,0 +1,39 @@
+:root {
+  --shadow-light: 0 3rem 3rem rgba(0, 0, 0, 0.06);
+
+  --color-bg: #d5e1ef;
+  --color-title: #203052;
+  --color-description: #919497;
+}
+
+$color-bg: var(--color-bg);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}

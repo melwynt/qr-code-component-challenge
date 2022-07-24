@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 32rem;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 1.6rem 1.6rem 4rem 1.6rem;
+
+  box-shadow: var(--shadow-light);
+
+  .image-box {
+    width: 28.8rem;
+    height: 28.8rem;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    border-radius: 1rem;
+
+    .image {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .details {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 2.4rem 0 0 0;
+
+    .title {
+      font-size: 2.2rem;
+      line-height: 2.8rem;
+      font-weight: 600;
+      margin: auto;
+      width: 28rem;
+      letter-spacing: 0.03rem;
+      color: var(--color-title);
+    }
+
+    .description {
+      font-size: 1.5rem;
+      line-height: 1.9rem;
+      font-weight: 300;
+      margin: 1.6rem auto 0 auto;
+      width: 26rem;
+      letter-spacing: 0.02rem;
+      color: var(--color-description);
+    }
+  }
+}
